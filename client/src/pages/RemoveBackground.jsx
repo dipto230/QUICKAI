@@ -2,12 +2,12 @@ import { Eraser, Sparkles } from 'lucide-react'
 import React, { useState } from 'react'
 
 const RemoveBackground = () => {
-  const [input, setInput] = useState(null)
+  const [input, setInput] = useState('')
 
   const onSubmitHandler = (e) => {
     e.preventDefault()
     console.log("File uploaded:", input)
-    // TODO: send `input` to your background removal API
+    
   }
 
   return (
